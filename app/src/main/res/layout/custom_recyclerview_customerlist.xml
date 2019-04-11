@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/cardview_customerlist"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/item_margin"
+    android:layout_height="@dimen/cardView_customerlist_height"
+    app:cardCornerRadius="@dimen/cardView_Corner_Radius"
+    android:elevation="@dimen/cardView_Elevation">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/col_number_customer"
+            android:layout_width="@dimen/col_number_customer_width"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size"
+            android:gravity="left|center"
+            android:text="@string/title_col_number_customer_text"/>
+
+        <RelativeLayout
+            android:layout_width="@dimen/col_name_customer_width"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/col_name_customer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:text="@string/title_col_name_customer_text"/>
+
+            <TextView
+                android:id="@+id/col_phone_customer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:text="@string/col_phone_customer_text"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/col_address_customer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:text="@string/title_col_address_customer_text"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

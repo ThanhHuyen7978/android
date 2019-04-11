@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">eSales App</string>
+
+    <string name="edt_login_id"> Hãy nhập tên tài khoản </string>
+    <string name="btn_login_text"> Đăng nhập</string>
+    <string name="btn_exit_text"> Thoát</string>
+    <string name="btn_about_text"> Về chúng tôi</string>
+
+    <string name="tv_version_date"> Phiên bản ngày:</string>
+    <string name="tv_version_number"> eSales version:</string>
+
+    <string name="dialog_button_okay"> Okay</string>
+    <string name="dialog_button_cancel"> Cancle</string>
+
+    <string name="customer_search_title"> Tìm kiếm </string>
+    <string name="customer_search_hint"> Tìm theo mã, tên và địa chỉ</string>
+
+    <string name="title_col_number_customer_text"> # </string>
+    <string name="title_col_name_customer_text"> Khách hàng </string>
+    <string name="title_col_address_customer_text"> Địa chỉ </string>
+    <string name="col_phone_customer_text"> ĐT: </string>
+
+    <string name="toolbar_title_customer_list"> Danh sách khách hàng</string>
+    <string name="toolbar_title_order_list"> Danh sách đơn hàng </string>
+
+    <string name="title_col_number_orderlist_text"> # </string>
+    <string name="title_col_name_orderlist_text"> Đơn hàng </string>
+    <string name="title_col_money_orderlist_text"> Thành tiền </string>
+
+    <string name="orderlist_date_title"> Ngày mua hàng </string>
+
+    <string name="total_title_text"> Tổng</string>
+    <string name="total_value_default"> 0 </string>
+
+    <string name="btn_confirm"> Xác nhận </string>
+    <string name="btn_cancel"> Hủy bỏ </string>
+
+    <string name="title_info_order"> Thông tin đơn hàng </string>
+    <string name="label_type_order"> Kiểu đơn hàng </string>
+    <string name="label_money_order"> Thành tiền </string>
+    <string name="label_remark_order"> Ghi chú </string>
+
+    <string name="hint_remark_order"> Nhập ghi chú </string>
+    <string name="hint_money_order"> 1000000.00</string>
+    <string name="hint_type_order"> Đơn đặt hàng </string>
+    
+    <string name="title_number_order"> # </string>
+    <string name="title_name_order"> Mặt hàng </string>
+    <string name="title_detail_order"> Diễn giải</string>
+    <string name="title_cost_order"> Giá bán </string>
+    <string name="title_amount_order"> Số lượng</string>
+    <string name="title_money_order"> Tổng tiền </string>
+
+    <string name="btn_add_order"> Thêm đơn hàng </string>
+    <string name="btn_confirm_order"> Chốt đơn hàng </string>
+
+    <string name="title_search_additem"> Tìm kiếm </string>
+    <string name="hint_title_search_additem"> Tìm theo mã và diễn giải có dấu </string>
+
+    <string name="title_additem_dialog"> Chọn mặt hàng </string>
+    <string name="title_col_number_additem"> # </string>
+    <string name="title_col_id_additem"> Mã sản phẩm</string>
+    <string name="title_col_name_additem"> Tên sản phẩm </string>
+    <string name="title_col_cost_additem"> Giá </string>
+    <string name="title_col_amount_additem"> Số lượng </string>
+
+
+</resources>

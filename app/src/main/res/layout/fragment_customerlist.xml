@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".userinterface.Fragment_CustomerList">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_customer_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/customer_search_title"
+            android:textSize="@dimen/text_size"/>
+
+        <EditText
+            android:id="@+id/edt_customer_search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edt_search_height"
+            android:hint="@string/customer_search_hint"
+            android:inputType="text"
+            android:imeOptions="actionSearch"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/redA700">
+
+        <TextView
+            android:id="@+id/title_col_number_customer"
+            android:layout_width="@dimen/col_number_customer_width"
+            android:layout_height="wrap_content"
+            android:text="@string/title_col_number_customer_text"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/title_col_name_customer"
+            android:layout_width="@dimen/col_name_customer_width"
+            android:layout_height="wrap_content"
+            android:text="@string/title_col_name_customer_text"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/title_col_address_customer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_col_address_customer_text"
+            android:textSize="@dimen/text_size"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_customerlist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+</LinearLayout>

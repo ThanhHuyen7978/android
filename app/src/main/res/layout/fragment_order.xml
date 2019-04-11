@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_title_info_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/item_margin"
+        android:text="@string/title_info_order"
+        android:textSize="@dimen/title_textsize"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/group_type_order"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_label_type_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_type_order"
+                android:textSize="@dimen/text_size"/>
+
+            <TextView
+                android:id="@+id/edt_type_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_type_order"
+                android:textColor="@color/redA700"
+                android:textSize="@dimen/text_size"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/group_money_order"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_label_money_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/label_money_order"
+                android:textSize="@dimen/text_size"/>
+
+            <TextView
+                android:id="@+id/tv_money_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_money_order"
+                android:textColor="@color/redA700"
+                android:textSize="@dimen/text_size"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/group_remark_order"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/group_type_order"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/tv_label_remark_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_remark_order"
+            android:textSize="@dimen/text_size"/>
+
+        <EditText
+            android:id="@+id/edt_remark_order"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_remark_order"
+            android:textSize="@dimen/text_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/group_title_info_order"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/item_margin"
+        android:layout_below="@+id/group_remark_order"
+        android:background="@color/redA700">
+
+        <TextView
+            android:layout_width="@dimen/col_number_order_width"
+            android:layout_height="wrap_content"
+            android:text="@string/title_number_order"
+            android:textSize="@dimen/small_textsize"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_name_order"
+            android:textSize="@dimen/small_textsize"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_detail_order"
+            android:textSize="@dimen/small_textsize"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_cost_order"
+            android:textSize="@dimen/small_textsize"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/title_amount_order"
+            android:textSize="@dimen/small_textsize"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="@dimen/col_totalmoney_oder_width"
+            android:layout_height="wrap_content"
+            android:text="@string/title_money_order"
+            android:textSize="@dimen/small_textsize"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_order"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <Button
+                android:id="@+id/btn_add_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_add_order"
+                android:background="@color/redA700"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/btn_confirm_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_confirm_order"
+                android:background="@color/gray400"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

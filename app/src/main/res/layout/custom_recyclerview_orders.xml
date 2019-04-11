@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_order_height">
+
+    <TextView
+        android:id="@+id/col_number_order"
+        android:layout_width="@dimen/col_number_order_width"
+        android:layout_height="match_parent"
+        android:text="@string/title_number_order"
+        android:textSize="@dimen/small_textsize"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/col_id_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/title_name_order"
+        android:textSize="@dimen/small_textsize"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/col_name_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/title_detail_order"
+        android:textSize="@dimen/small_textsize"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/col_price_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/title_cost_order"
+        android:textSize="@dimen/small_textsize"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/col_amount_order"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/title_amount_order"
+        android:textSize="@dimen/small_textsize"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/col_money_order"
+        android:layout_width="@dimen/col_totalmoney_oder_width"
+        android:layout_height="match_parent"
+        android:text="@string/title_money_order"
+        android:textSize="@dimen/small_textsize"
+        android:gravity="center"/>
+
+</LinearLayout>

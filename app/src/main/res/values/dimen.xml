@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="edt_login_width"> 300dp</dimen>
+    <dimen name="edt_login_height"> 40dp</dimen>
+
+    <dimen name="login_textsize"> 14sp </dimen>
+
+    <dimen name="btn_login_width"> 120dp </dimen>
+    <dimen name="btn_login_height"> 40dp </dimen>
+
+    <dimen name="btn_exit_width"> 120dp </dimen>
+<dimen name="btn_exit_height"> 40dp </dimen>
+
+<dimen name="btn_about_width"> 120dp </dimen>
+    <dimen name="btn_about_height"> 40dp </dimen>
+
+    <dimen name="item_margin"> 10dp </dimen>
+
+    <dimen name="navigation_width"> 300dp</dimen>
+<dimen name="text_size_tong">30dp</dimen>
+   <dimen name="item_margin_tong">200dp</dimen>
+    <dimen name="drawer_header_height"> 150dp </dimen>
+
+    <dimen name="cardView_customerlist_height"> 100dp </dimen>
+    <dimen name="cardView_recyclerview_orderlist_height"> 100dp </dimen>
+    <dimen name="cardView_search_orderlist_height"> 70dp </dimen>
+
+    <dimen name="cardView_Corner_Radius"> 30dp </dimen>
+    <dimen name="cardView_Elevation"> 30dp </dimen>
+
+    <dimen name="image_logo_width"> 180dp </dimen>
+    <dimen name="image_logo_height"> 80dp </dimen>
+
+    <dimen name="appname_size"> 20sp </dimen>
+
+    <dimen name="toolbar_height"> 50dp </dimen>
+
+    <dimen name="text_size"> 18sp </dimen>
+    <dimen name="small_textsize"> 13sp </dimen>
+
+    <dimen name="edt_search_height"> 40dp </dimen>
+
+    <dimen name="col_number_customer_width"> 50dp </dimen>
+    <dimen name="col_name_customer_width"> 150dp </dimen>
+    
+    <dimen name="col_number_orderlist_width"> 50dp </dimen>
+    <dimen name="col_name_orderlist_width"> 200dp </dimen>
+
+    <dimen name="dialogfragment_orderdate_width"> 300dp </dimen>
+    <dimen name="dialogfragment_orderdate_height"> 400dp</dimen>
+
+    <dimen name="col_number_order_width"> 30dp </dimen>
+
+    <dimen name="title_textsize"> 22sp </dimen>
+
+    <dimen name="item_order_height"> 80dp </dimen>
+
+    <dimen name="additem_height"> 80dp </dimen>
+
+    <dimen name="col_totalmoney_oder_width"> 100dp </dimen>
+
+
+
+</resources>
